@@ -24,7 +24,7 @@ export default function Hero() {
   }, []);
 
   return (
-    <div className="relative overflow-hidden min-h-screen flex items-center bg-gradient-to-br from-blue-600 via-purple-600 to-indigo-700">
+    <div className="relative overflow-hidden min-h-screen flex items-center bg-linear-to-br from-blue-600 via-purple-600 to-indigo-700">
       
       {/* Simple Background Orbs - No animations */}
       <div className="absolute top-20 left-10 w-72 h-72 bg-yellow-400 rounded-full blur-3xl opacity-10"></div>
